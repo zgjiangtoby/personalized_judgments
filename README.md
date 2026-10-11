@@ -1,12 +1,12 @@
-# Personalized judgments
+# Attributing Personalization Gains with Frozen LLM Representations
 
-Companion code for *Attributing Personalization Gains with Frozen LLM Representations*, manuscript version 11 October 2026 (eight-page main text). Run the commands from this directory.
+The code for *Attributing Personalization Gains with Frozen LLM Representations*.
 
 Ordinal hate-speech judgments with crossed person/text holdouts, anchor calibration and matched personal text directions. The lexical control uses the same calibration budgets.
 
 ## Environment
 
-Run the commands below in Bash. Use Python 3.11 and a CUDA GPU with enough memory for FP32 inference; the 8B runs used GPUs reporting 49,140 MiB. Keep the batch settings below when comparing the reported results.
+Run the commands below in Bash. Use Python 3.11 and a CUDA GPU with enough memory for FP32 inference. Keep the batch settings below when comparing the reported results.
 
 ```bash
 python -m venv .venv
